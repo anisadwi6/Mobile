@@ -22,9 +22,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// =========================================================
 // MODEL DATA KATALOG
-// =========================================================
 class KatalogItem {
   final String nama;
   final String subjudul;
@@ -99,9 +97,9 @@ final List<KatalogItem> daftarKatalog = [
   ),
 ];
 
-// =========================================================
+
 // SCREEN 1 - BERANDA (StatelessWidget)
-// =========================================================
+
 class BerandaScreen extends StatelessWidget {
   const BerandaScreen({super.key});
 
@@ -264,9 +262,8 @@ class PricingListCard extends StatelessWidget {
   }
 }
 
-// =========================================================
+
 // SCREEN 2 - DETAIL KATALOG (StatefulWidget)
-// =========================================================
 class DetailKatalogScreen extends StatefulWidget {
   final KatalogItem item;
 
